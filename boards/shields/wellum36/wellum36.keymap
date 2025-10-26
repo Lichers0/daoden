@@ -241,109 +241,109 @@
 
         def_layer {
             bindings = <
-_ Q          _ W          _ E          _ R         _ T             _ Y          _ U          _ I          _ O          _ P
-_ A          _ S          _ D          _ F         _ G             _ H          _ J          _ K          _ L          _ SEMI
-_ Z          _ X          _ C          _ V         _ B             _ N          _ M          _ DOT        _ LBKT       _ RBKT
-                          &layer_ru    _ SPACE     &la NAV         &la SYM      _ LSFT       &mo ALT
+___         _ Q          _ W          _ E          _ R         _ T             _ Y          _ U          _ I          _ O          _ P          ___
+___         _ A          _ S          _ D          _ F         _ G             _ H          _ J          _ K          _ L          _ SEMI       ___
+___         _ Z          _ X          _ C          _ V         _ B             _ N          _ M          _ DOT        _ LBKT       _ RBKT       ___
+                                      &layer_ru    _ SPACE     &la NAV         &la SYM      _ LSFT       &mo ALT
             >;
         };
 
         ru_layer {
             bindings = <
-&td_si_yo               _ RU_CYRILLIC_TSE         _ RU_CYRILLIC_U          _ RU_CYRILLIC_KA        _ RU_CYRILLIC_IE             _ RU_CYRILLIC_EN  _ RU_CYRILLIC_GHE        &td_sh_shch              _ RU_CYRILLIC_ZE        _ RU_CYRILLIC_HA
-_ RU_CYRILLIC_EF        _ RU_CYRILLIC_YERU        _ RU_CYRILLIC_VE         _ RU_CYRILLIC_A         _ RU_CYRILLIC_PE             _ RU_CYRILLIC_ER  _ RU_CYRILLIC_O          _ RU_CYRILLIC_EL         _ RU_CYRILLIC_DE        _ RU_CYRILLIC_ZHE
-_ RU_CYRILLIC_YA        _ RU_CYRILLIC_CHE         _ RU_CYRILLIC_ES         _ RU_CYRILLIC_EM        _ RU_CYRILLIC_I              _ RU_CYRILLIC_TE  &td_soft_hard            _ RU_CYRILLIC_BE         _ RU_CYRILLIC_YU        _ RU_CYRILLIC_E
-                                                                           &layer_en               _ SPACE     &la NAV         &la RU_SYM   _ LSFT       &mo ALT
+___         &td_si_yo               _ RU_CYRILLIC_TSE         _ RU_CYRILLIC_U          _ RU_CYRILLIC_KA        _ RU_CYRILLIC_IE             _ RU_CYRILLIC_EN  _ RU_CYRILLIC_GHE        &td_sh_shch              _ RU_CYRILLIC_ZE        _ RU_CYRILLIC_HA         ___
+___         _ RU_CYRILLIC_EF        _ RU_CYRILLIC_YERU        _ RU_CYRILLIC_VE         _ RU_CYRILLIC_A         _ RU_CYRILLIC_PE             _ RU_CYRILLIC_ER  _ RU_CYRILLIC_O          _ RU_CYRILLIC_EL         _ RU_CYRILLIC_DE        _ RU_CYRILLIC_ZHE        ___
+___         _ RU_CYRILLIC_YA        _ RU_CYRILLIC_CHE         _ RU_CYRILLIC_ES         _ RU_CYRILLIC_EM        _ RU_CYRILLIC_I              _ RU_CYRILLIC_TE  &td_soft_hard            _ RU_CYRILLIC_BE         _ RU_CYRILLIC_YU        _ RU_CYRILLIC_E          ___
+                                                                                       &layer_en               _ SPACE     &la NAV         &la RU_SYM   _ LSFT       &mo ALT
             >;
         };
 
         gam_layer {
             bindings = <
-_ TAB        _ Q          _ W          _ E         _ R             ___          ___          _ UP         ___          _ TAB
-_ LSFT       _ A          _ S          _ D         _ F             ___          _ LEFT       _ DOWN       _ RIGHT      _ RSFT
-_ LCTRL      _ Z          _ X          _ C         _ V             ___          ___          ___          ___          _ RCTRL
-                          _ LALT       _ SPACE     &mo GFN         &tog GAM     _ SPACE      _ PSCRN
+___         _ TAB        _ Q          _ W          _ E         _ R             ___          ___          _ UP         ___          _ TAB        ___
+___         _ LSFT       _ A          _ S          _ D         _ F             ___          _ LEFT       _ DOWN       _ RIGHT      _ RSFT       ___
+___         _ LCTRL      _ Z          _ X          _ C         _ V             ___          ___          ___          ___          _ RCTRL      ___
+                                      _ LALT       _ SPACE     &mo GFN         &tog GAM     _ SPACE      _ PSCRN
             >;
         };
 
         gfn_layer {
             bindings = <
-_ N5         _ N1         _ N2         _ N3        _ N4            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-_ N0         _ N6         _ N7         _ N8        _ N9            &bt BT_CLR   ___          ___          ___          &bt BT_CLR_ALL
-_ G          _ J          _ I          _ M         _ T             &out OUT_BLE &out OUT_USB &out OUT_TOG &sys_reset   &bootloader
-                          _ ESC        _ RET       ______          ______       ______       ______
+___         _ N5         _ N1         _ N2         _ N3        _ N4            &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 ___
+___         _ N0         _ N6         _ N7         _ N8        _ N9            &bt BT_CLR   ___          ___          ___          &bt BT_CLR_ALL ___
+___         _ G          _ J          _ I          _ M         _ T             &out OUT_BLE &out OUT_USB &out OUT_TOG &sys_reset   &bootloader  ___
+                                      _ ESC        _ RET       ______          ______       ______       ______
             >;
         };
 
         sym_layer {
             bindings = <
-_ BSLH       _ PIPE       _ UNDER      _ AMPS       _ PRCNT         _ PLUS       _ MINUS      _ EQUAL      _ STAR       _ FSLH
-_ LT         _ COLON      _ LBRC       _ LPAR       _ LBKT          _ DLLR       &cm_gui      &cm_alt      &cm_ctrl     &cm_sft
-&key_repeat  _ GRAVE      _ APOS       _ DOT        _ COMMA         _ EXCL       _ AT         _ HASH       _ CARET      _ TILDE
-                          ______       &mo SYM_EX  ______          ______       ______       ______
+___         _ BSLH       _ PIPE       _ UNDER      _ AMPS       _ PRCNT         _ PLUS       _ MINUS      _ EQUAL      _ STAR       _ FSLH       ___
+___         _ LT         _ COLON      _ LBRC       _ LPAR       _ LBKT          _ DLLR       &cm_gui      &cm_alt      &cm_ctrl     &cm_sft      ___
+___         &key_repeat  _ GRAVE      _ APOS       _ DOT        _ COMMA         _ EXCL       _ AT         _ HASH       _ CARET      _ TILDE      ___
+                                      ______       &mo SYM_EX  ______          ______       ______       ______
             >;
         };
 
         sym_ex_layer {
             bindings = <
-_ BSLH       _ PIPE       _ UNDER      _ AMPS       _ PRCNT         _ PLUS       _ MINUS      _ EQUAL      _ STAR       _ FSLH
-_ GT         _ SEMI       _ RBRC       _ RPAR       _ RBKT          _ DLLR       &cm_gui      &cm_alt      &cm_ctrl     &cm_sft
-___          _ GRAVE      _ DQT        _ DOT        _ COMMA         _ QMARK      _ AT         _ HASH       _ CARET      _ TILDE
-                          ______       ______      ______          ______       ______       ______
+___         _ BSLH       _ PIPE       _ UNDER      _ AMPS       _ PRCNT         _ PLUS       _ MINUS      _ EQUAL      _ STAR       _ FSLH       ___
+___         _ GT         _ SEMI       _ RBRC       _ RPAR       _ RBKT          _ DLLR       &cm_gui      &cm_alt      &cm_ctrl     &cm_sft      ___
+___         ___          _ GRAVE      _ DQT        _ DOT        _ COMMA         _ QMARK      _ AT         _ HASH       _ CARET      _ TILDE      ___
+                                      ______       ______      ______          ______       ______       ______
             >;
         };
 
         ru_sym_layer {
             bindings = <
-_ BSLH       &ek PIPE     _ UNDER      &ek AMPS       _ PRCNT         _ PLUS       _ MINUS      _ EQUAL      _ STAR       _ PIPE
-&ek LT       _ LS(N6)     &ek LBRC     _ LPAR         &ek LBKT        &ek DLLR     &cm_gui      &cm_alt      &cm_ctrl     &cm_sft
-&key_repeat  &ek GRAVE    &ek APOS     &ek DOT        &ek COMMA       _ LS(N1)     &ek AT       _ LS(N3)     &ek CARET    &ek TILDE
-                          ______       &mo RU_SYM_EX  ______          ______       ______       ______
+___         _ BSLH       &ek PIPE     _ UNDER      &ek AMPS       _ PRCNT         _ PLUS       _ MINUS      _ EQUAL      _ STAR       _ PIPE       ___
+___         &ek LT       _ LS(N6)     &ek LBRC     _ LPAR         &ek LBKT        &ek DLLR     &cm_gui      &cm_alt      &cm_ctrl     &cm_sft      ___
+___         &key_repeat  &ek GRAVE    &ek APOS     &ek DOT        &ek COMMA       _ LS(N1)     &ek AT       _ LS(N3)     &ek CARET    &ek TILDE    ___
+                                      ______       &mo RU_SYM_EX  ______          ______       ______       ______
             >;
         };
 
         ru_sym_ex_layer {
             bindings = <
-_ BSLH       &ek PIPE     _ UNDER      &ek AMPS     _ PRCNT         _ PLUS       _ MINUS      _ EQUAL      _ STAR       _ PIPE
-&ek GT       _ LS(N4)     &ek RBRC     _ RPAR       &ek RBKT        &ek DLLR     &cm_gui      &cm_alt      &cm_ctrl     &cm_sft
-___          &ek GRAVE    _ LS(N2)     &ek DOT      &ek COMMA       _ LS(N7)     &ek AT       _ HASH       &ek CARET    &ek TILDE
-                          ______       ______      ______          ______       ______       ______
+___         _ BSLH       &ek PIPE     _ UNDER      &ek AMPS     _ PRCNT         _ PLUS       _ MINUS      _ EQUAL      _ STAR       _ PIPE       ___
+___         &ek GT       _ LS(N4)     &ek RBRC     _ RPAR       &ek RBKT        &ek DLLR     &cm_gui      &cm_alt      &cm_ctrl     &cm_sft      ___
+___         ___          &ek GRAVE    _ LS(N2)     &ek DOT      &ek COMMA       _ LS(N7)     &ek AT       _ HASH       &ek CARET    &ek TILDE    ___
+                                      ______       ______      ______          ______       ______       ______
             >;
         };
 
         nav_layer {
             bindings = <
-___          &apper       &tapper      ___         _ ESC           _ ESC        _ HOME       _ END        _ BSPC       _ DEL
-&cm_sft      &cm_ctrl     &cm_alt      &cm_gui     _ RET           _ LEFT       _ DOWN       _ UP         _ RIGHT      _ RET
-_ PSPC       _ NSPC       &tog GAM     _ PSCRN     _ TAB           _ TAB        _ PG_UP      _ PG_DN      _ APOS       _ KP_NUM
-                          &mo CMD      ______      ______          ______       ______       ______
+___         ___          &apper       &tapper      ___         _ ESC           _ ESC        _ HOME       _ END        _ BSPC       _ DEL        ___
+___         &cm_sft      &cm_ctrl     &cm_alt      &cm_gui     _ RET           _ LEFT       _ DOWN       _ UP         _ RIGHT      _ RET        ___
+___         _ PSPC       _ NSPC       &tog GAM     _ PSCRN     _ TAB           _ TAB        _ PG_UP      _ PG_DN      _ APOS       _ KP_NUM     ___
+                                      &mo CMD      ______      ______          ______       ______       ______
             >;
         };
 
         num_layer {
             bindings = <
-_ N7         _ N5         _ N3         _ N1        _ N9            _ N8         _ N0         _ N2         _ N4         _ N6
-&cm_sft      &cm_ctrl     &cm_alt      &cm_gui     _ F11           _ F10        &cm_gui      &cm_alt      &cm_ctrl     &cm_sft
-_ F7         _ F5         _ F3         _ F1        _ F9            _ F8         _ F12        _ F2         _ F4         _ F6
-                          ______       ______      ______          ______       ______       ______
+___         _ N7         _ N5         _ N3         _ N1        _ N9            _ N8         _ N0         _ N2         _ N4         _ N6         ___
+___         &cm_sft      &cm_ctrl     &cm_alt      &cm_gui     _ F11           _ F10        &cm_gui      &cm_alt      &cm_ctrl     &cm_sft      ___
+___         _ F7         _ F5         _ F3         _ F1        _ F9            _ F8         _ F12        _ F2         _ F4         _ F6         ___
+                                      ______       ______      ______          ______       ______       ______
             >;
         };
 
         alt_layer {
             bindings = <
-_ RA(Q)      _ RA(W)      _ RA(E)      _ RA(R)     _ RA(T)         _ RA(Y)      _ RA(U)      _ RA(I)      _ RA(O)      _ RA(P)
-_ RA(A)      _ RA(S)      _ RA(D)      _ RA(F)     _ RA(G)         _ RA(H)      _ RA(J)      _ RA(K)      _ RA(L)      _ RA(SEMI)
-_ RA(Z)      _ RA(X)      _ RA(C)      _ RA(V)     _ RA(B)         _ RA(N)      _ RA(M)      _ RA(COMMA)  _ RA(DOT)    _ RA(FSLH)
-                          ______       _ NBSP      _ LSHFT         ______       ______       ______
+___         _ RA(Q)      _ RA(W)      _ RA(E)      _ RA(R)     _ RA(T)         _ RA(Y)      _ RA(U)      _ RA(I)      _ RA(O)      _ RA(P)      ___
+___         _ RA(A)      _ RA(S)      _ RA(D)      _ RA(F)     _ RA(G)         _ RA(H)      _ RA(J)      _ RA(K)      _ RA(L)      _ RA(SEMI)   ___
+___         _ RA(Z)      _ RA(X)      _ RA(C)      _ RA(V)     _ RA(B)         _ RA(N)      _ RA(M)      _ RA(COMMA)  _ RA(DOT)    _ RA(FSLH)   ___
+                                      ______       _ NBSP      _ LSHFT         ______       ______       ______
             >;
         };
 
         cmd_layer {
             bindings = <
-_ MEH(Q)     _ MEH(W)     _ MEH(E)     _ MEH(R)    _ MEH(T)        _ MEH(Y)     _ C_VOL_DN   _ C_MUTE     _ C_VOL_UP   _ MEH(P)
-_ MEH(A)     _ MEH(S)     _ MEH(D)     _ MEH(F)    _ MEH(G)        _ MEH(H)     _ C_PREV     _ C_PP       _ C_NEXT     _ MEH(SEMI)
-&bootloader  _ MEH(X)     _ MEH(C)     _ MEH(V)    _ MEH(B)        _ MEH(N)     _ MEH(M)     _ MEH(COMMA) _ MEH(DOT)   &bootloader
-                          ______       ______      ______          _ LGUI       ______       ______
+___         _ MEH(Q)     _ MEH(W)     _ MEH(E)     _ MEH(R)    _ MEH(T)        _ MEH(Y)     _ C_VOL_DN   _ C_MUTE     _ C_VOL_UP   _ MEH(P)     ___
+___         _ MEH(A)     _ MEH(S)     _ MEH(D)     _ MEH(F)    _ MEH(G)        _ MEH(H)     _ C_PREV     _ C_PP       _ C_NEXT     _ MEH(SEMI)  ___
+___         &bootloader  _ MEH(X)     _ MEH(C)     _ MEH(V)    _ MEH(B)        _ MEH(N)     _ MEH(M)     _ MEH(COMMA) _ MEH(DOT)   &bootloader  ___
+                                      ______       ______      ______          _ LGUI       ______       ______
             >;
         };
     };

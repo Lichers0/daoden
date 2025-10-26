@@ -1,7 +1,7 @@
 #include "wellum36.dtsi"
 
 &default_transform {
-	col-offset = <18>;
+	col-offset = <21>;
 };
 
 &kscan0 {
@@ -11,18 +11,21 @@
 		, <&pro_micro  7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // K
 		, <&pro_micro  8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // U
 		, <&pro_micro  1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // Y
+		, <&pro_micro 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // unused 1
 
 		, <&pro_micro  3 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // ~
 		, <&pro_micro  4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // O
 		, <&pro_micro  6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // I
 		, <&pro_micro  9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // J
 		, <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // H
+		, <&pro_micro 23 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // unused 2
 
 		, <&pro_micro 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // ]
 		, <&pro_micro 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // [
 		, <&pro_micro 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // &
 		, <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // M
 		, <&pro_micro  0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // N
+		, <&pro_micro 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)> // unused 3
 
 		, <&pro_micro 18 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
 		, <&pro_micro 14 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
